@@ -1,0 +1,2 @@
+abaqus python
+这里有关abaqus python二次开发攻略上的代码，能够方便提取免于输入代码的烦恼
