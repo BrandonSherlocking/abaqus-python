@@ -1,4 +1,4 @@
-# 打开odb文件（不显示任何东西）
+```# 打开odb文件（不显示任何东西）
 o = session.openOdb(name='dianjiec.odb', readOnly=False)
 #需要更新一下，
 abaqus -upgrade -job <newHertz> -odb <HertzContact>
@@ -42,4 +42,4 @@ myViewport.view.fitView()
 
 #改变观测角度
 myViewport.view.setViewpoint(viewVector=(1,1,1))
-myViewport.view.fitView()
+myViewport.view.fitView()```
