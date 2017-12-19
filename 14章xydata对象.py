@@ -1,4 +1,4 @@
-```
+
 #创建xydata对象
 xyData1 = session.XYData(data=((1,2),(2,4),(3,6),(4,8)), name='Data1',legendLabel='Data1',xValuesLabel='X', yValuesLabel='Y'
 
@@ -12,4 +12,4 @@ myDatas = session.xyDataListFromField(odb=o, outputPosition=INTEGRATION_POINT,va
 myPath = session.Path(name='myPath', type=RADIAL, expression=((0,0,0), (0,0,1), (0,-3.0,0)), circleDefinition=ORIGIN_AXIS, numSegments=20, radialAngle=0, startRadius=0, endRadius=CIRCLE_RADIUS)
 
 myData = session.XYDataFromPath(path=myPath, shape=UNDEFORMED, labelType=TRUE_DISTANCE, includeIntersections=True, name='myData', variable=(('S', INTEGRATION_POINT, ((INVARIANT, 'Mises'),)),))
-```
+
