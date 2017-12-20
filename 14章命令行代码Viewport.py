@@ -18,6 +18,8 @@ myViewport.setValues(width=150, height=100, origin=(0,-30))
 #显示项目（object）=========出错了，？？？
 myViewport.setValues(displayedObject=0)
 TypeError: displayedObject; 已找到 int, 应当提供 type
+#修改，那里不是0是o
+myViewport.setValues(displayedObject=o)
 
 #显示应力（直接gui操作，不需要再敲一串代码）
 from abaqusConstants import *
